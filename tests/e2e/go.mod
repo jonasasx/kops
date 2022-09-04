@@ -12,10 +12,10 @@ require (
 	github.com/google/shlex v0.0.0-20191202100458-e7afc7fbc510
 	github.com/octago/sflags v0.2.0
 	github.com/spf13/pflag v1.0.5
-	k8s.io/api v0.24.2
-	k8s.io/apimachinery v0.24.2
+	k8s.io/api v0.25.0
+	k8s.io/apimachinery v0.25.0
 	k8s.io/client-go v9.0.0+incompatible
-	k8s.io/klog/v2 v2.60.1
+	k8s.io/klog/v2 v2.70.1
 	k8s.io/kops v1.24.0-beta.2
 	sigs.k8s.io/boskos v0.0.0-20200710214748-f5935686c7fc
 	sigs.k8s.io/kubetest2 v0.0.0-20220411203323-036d47c48813
@@ -51,7 +51,7 @@ require (
 	github.com/docker/distribution v2.8.1+incompatible // indirect
 	github.com/docker/docker v20.10.16+incompatible // indirect
 	github.com/docker/docker-credential-helpers v0.6.4 // indirect
-	github.com/emicklei/go-restful v2.9.5+incompatible // indirect
+	github.com/emicklei/go-restful/v3 v3.8.0 // indirect
 	github.com/emirpasic/gods v1.12.0 // indirect
 	github.com/fatih/color v1.13.0 // indirect
 	github.com/go-git/gcfg v1.5.0 // indirect
@@ -140,13 +140,13 @@ require (
 	go.opencensus.io v0.23.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e // indirect
-	golang.org/x/net v0.0.0-20220617184016-355a448f1bc9 // indirect
+	golang.org/x/net v0.0.0-20220722155237-a158d28d115b // indirect
 	golang.org/x/oauth2 v0.0.0-20220608161450-d0670ef3b1eb // indirect
-	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
-	golang.org/x/sys v0.0.0-20220615213510-4f61da869c0c // indirect
+	golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 // indirect
+	golang.org/x/sys v0.0.0-20220722155257-8c9f86f7a55f // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
 	golang.org/x/text v0.3.7 // indirect
-	golang.org/x/time v0.0.0-20220210224613-90d013bbcef8 // indirect
+	golang.org/x/time v0.0.0-20220609170525-579cf78fd858 // indirect
 	golang.org/x/xerrors v0.0.0-20220609144429-65e65417b02f // indirect
 	google.golang.org/api v0.84.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
@@ -159,10 +159,10 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	k8s.io/klog v1.0.0 // indirect
-	k8s.io/kube-openapi v0.0.0-20220328201542-3ee0da9b0b42 // indirect
+	k8s.io/kube-openapi v0.0.0-20220803162953-67bda5d908f1 // indirect
 	k8s.io/release v0.7.1-0.20210204090829-09fb5e3883b8 // indirect
 	k8s.io/test-infra v0.0.0-20200617221206-ea73eaeab7ff // indirect
-	k8s.io/utils v0.0.0-20220210201930-3a6ce19ff2f9 // indirect
-	sigs.k8s.io/json v0.0.0-20211208200746-9f7c6b3444d2 // indirect
-	sigs.k8s.io/structured-merge-diff/v4 v4.2.1 // indirect
+	k8s.io/utils v0.0.0-20220728103510-ee6ede2d64ed // indirect
+	sigs.k8s.io/json v0.0.0-20220713155537-f223a00ba0e2 // indirect
+	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
